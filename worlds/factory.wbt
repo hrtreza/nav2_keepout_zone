@@ -1,0 +1,378 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+}
+Viewpoint {
+  fieldOfView 0.5
+  orientation 0.14485766103804018 0.9777071647630798 -0.15200315131446474 1.5608540974759384
+  position -1.712914691079371 -1.094469125091795 46.85625899920707
+  near 1
+  follow "TIAGo Iron"
+  followType "None"
+  followSmoothness 0
+}
+TexturedBackground {
+  texture "empty_office"
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 10.8
+  location -4 6 5
+  castShadows TRUE
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 9.6
+  location 5 6 5
+}
+Floor {
+  translation -4 -5.5 0
+  name "floor(1)"
+  size 12 14.1
+  tileSize 1 1
+  appearance ThreadMetalPlate {
+  }
+}
+WoodenPalletStack {
+  translation -5.2560137 -11.74814 0
+  rotation 0 0 1 2.61799
+  name "wooden pallet stack(4)"
+  palletNumber 20
+}
+WoodenBox {
+  translation -0.48872581 -11.691652 0.93
+  rotation 1 0 0 1.5707963267948966
+  name "wooden box(10)"
+}
+OilBarrel {
+  translation 1.55928 -7.49932 0.44
+  rotation 0 0 1 2.87325
+  name "oil barrel(2)"
+}
+OilBarrel {
+  translation -9.2263 -0.866616 0.44
+  rotation 0 0 1 2.87325
+  name "oil barrel(3)"
+}
+OilBarrel {
+  translation 0.694606 0.219955 0.44
+  rotation 0 0 1 2.61145
+  name "oil barrel(1)"
+}
+OilBarrel {
+  translation 1.46533 -6.56338 0.44
+  rotation 0 0 1 2.61145
+  name "oil barrel(5)"
+}
+OilBarrel {
+  translation -8.02103 -0.680347 0.44
+  rotation 0 0 1 2.61145
+  name "oil barrel(4)"
+}
+Floor {
+  translation -4 -5.5 7
+  rotation 1 0 0 3.141592
+  size 12 14.1
+  tileSize 1 1
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/default/worlds/textures/asphalt.jpg"
+      ]
+    }
+    roughness 1
+    metalness 0
+  }
+}
+Darwin-op {
+  translation 1.23154 -4.46956 0.798485
+  rotation -0.6222989795058281 0.45366398505948424 -0.6379129789916121 -2.247155307179586
+  controller "void"
+}
+AiboErs7 {
+  translation 1.1565273 -4.9369095 0.82215018
+  rotation -0.26735092200225136 0.7698527754008746 -0.5795258309274203 2.679
+  controller "void"
+}
+Wrench {
+  translation -0.35779017 -4.3479161 0.74
+  rotation 0 0 1 -1.5707953071795862
+  name "wrench(1)"
+}
+Wrench {
+  translation 0.8606647 -4.6966955 0.74
+  rotation 0 0 1 -2.565635307179586
+}
+Hammer {
+  translation 0.647084 -2.16042 0.754
+  rotation 0 0 1 -2.094395307179586
+  name "hammer(1)"
+}
+Hammer {
+  translation 1.5252822 -4.8882693 0.754
+  rotation 0 0 1 2.35619
+}
+WoodenPallet {
+  translation -6.29089 -7.05536 0
+  rotation -2.08354e-07 -1.65425e-06 -1 1.5708
+}
+WoodenPallet {
+  translation -3.05 -12.1 0.52
+  rotation 0.44721372362178063 0.44721372362178063 0.7745965212991105 -1.82348
+  name "wooden pallet(1)"
+}
+Table {
+  translation 0.958501 -3.45358 0
+  rotation 0 0 1 1.5708
+  size 4.5 1.5 0.74
+}
+CardboardBox {
+  translation -1.47266 -11.8672 0.31
+  rotation 0 0 1 -1.5707963267948966
+}
+PaintBucket {
+  translation 0.538496 -2.99552 0.74
+  rotation 0 0 1 1.0472
+}
+Screwdriver {
+  translation 0.473404 -4.88654 0.752
+  rotation 0.37796390461552926 0.6546538347889604 0.6546538347889604 2.41886
+}
+WoodenPalletStack {
+  translation -6.8424942 -11.754332 0
+  name "wooden pallet stack(1)"
+  palletNumber 6
+}
+WoodenPalletStack {
+  translation -4.51879 -5.92736 0
+  rotation 0 0 1 -2.6179953071795863
+  palletNumber 20
+}
+WoodenPalletStack {
+  translation -4.64573 -7.39084 0
+  rotation 0 0 1 -3.1415853071795863
+  name "wooden pallet stack(3)"
+  palletNumber 20
+}
+WoodenPalletStack {
+  translation 1.20311 -8.58152 0
+  rotation 0 0 1 -0.261795307179586
+  name "wooden pallet stack(2)"
+  palletNumber 20
+}
+WoodenPalletStack {
+  translation 1.13421 -9.87108 0
+  rotation 0 0 1 1.309
+  name "wooden pallet stack(5)"
+  palletNumber 20
+}
+WoodenPalletStack {
+  translation -6.99926 0.491723 0
+  rotation 0 0 1 -0.523595307179586
+  name "wooden pallet stack(6)"
+  palletNumber 20
+}
+WoodenPalletStack {
+  translation -8.50232 0.197442 0
+  rotation 0 0 1 0.785402
+  name "wooden pallet stack(8)"
+  palletNumber 20
+}
+WoodenPalletStack {
+  translation 1.13421 -9.87108 0
+  rotation 0 0 1 1.309
+  name "wooden pallet stack(7)"
+  palletNumber 20
+}
+WoodenBox {
+  translation 0.070787217 -11.12746 0.3
+  rotation -0.935113119114731 0.250562820924732 0.250562820924732 4.645351474266668
+  name "wooden box(1)"
+}
+WoodenBox {
+  translation 0.14546116 -11.909219 0.3
+  rotation 1 0 0 1.5707963267948966
+  name "wooden box(2)"
+}
+WoodenBox {
+  translation -1.1321262 -11.1489 0.3
+  rotation 0.862856210520177 0.357406743058074 0.357406743058073 1.71777151624413
+  name "wooden box(3)"
+}
+WoodenBox {
+  translation -0.49883855 -11.765703 0.3
+  rotation 1 0 0 1.5707963267948966
+  name "wooden box(5)"
+}
+WoodenBox {
+  translation -2.21015 -11.1788 0.9
+  rotation 1 0 0 1.5707963267948966
+  name "wooden box(8)"
+}
+WoodenBox {
+  translation -7.50633 -7.32247 0.3
+  rotation 1 0 0 1.5707963267948966
+  name "wooden box(12)"
+}
+WoodenBox {
+  translation -8.36594 -7.58219 0.3
+  rotation 1 0 0 1.5707963267948966
+  name "wooden box(11)"
+}
+WoodenBox {
+  translation -9.23318 -7.24118 0.3
+  rotation 1 0 0 1.5707963267948966
+  name "wooden box(4)"
+}
+WoodenBox {
+  translation -0.48872581 -11.691652 0.93
+  rotation 1 0 0 1.5707963267948966
+}
+Wall {
+  translation -4.06 1.52 0
+  rotation 0 1 0 0
+  name "wall(1)"
+  size 12 0.2 7
+  appearance Roughcast {
+    textureTransform TextureTransform {
+      scale 5 1.75
+    }
+  }
+}
+Cabinet {
+  translation -2.39369 0.998767 0
+  rotation 0 0 1 -1.5707963267948966
+  name "cabinet(1)"
+  columnsWidths [
+    1.3, 0.17, 0.17
+  ]
+  layout [
+    "Shelf (1, 5, 3, 0)"
+    "Shelf (1, 4, 3, 0)"
+    "Shelf (1, 3, 3, 0)"
+    "Shelf (1, 2, 3, 0)"
+  ]
+}
+Cabinet {
+  translation -4.35037 0.99285 0
+  rotation 0 0 -1 1.5708
+  name "cabinet(2)"
+  columnsWidths [
+    1.3, 0.17, 0.17
+  ]
+  layout [
+    "Shelf (1, 5, 3, 0)"
+    "Shelf (1, 4, 3, 0)"
+    "Shelf (1, 3, 3, 0)"
+    "Shelf (1, 2, 3, 0)"
+  ]
+}
+Wall {
+  translation -4.06 -12.5 0
+  name "wall(2)"
+  size 12 0.2 7
+  appearance Roughcast {
+    textureTransform TextureTransform {
+      scale 5 1.75
+    }
+  }
+}
+Wall {
+  translation -5.7314 -6.12374 0
+  rotation 0 0 1 1.5708
+  name "wall(4)"
+  size 4 0.2 7
+  appearance Roughcast {
+    textureTransform TextureTransform {
+      scale 5 1.75
+    }
+  }
+}
+Wall {
+  translation -7.86044 -8.12112 0
+  name "wall(5)"
+  size 4.5 0.2 7
+  appearance Roughcast {
+    textureTransform TextureTransform {
+      scale 5 1.75
+    }
+  }
+}
+Wall {
+  translation -10 -5.49 0
+  rotation 0 0 1 1.5708
+  name "wall(3)"
+  size 14.1 0.2 7
+  appearance Roughcast {
+    textureTransform TextureTransform {
+      scale 4.125 1.725
+    }
+  }
+}
+Wall {
+  translation 1.98 -5.47 0
+  rotation 0 0 1 -1.5708
+  size 14.2 0.2 7
+  appearance Roughcast {
+    textureTransform TextureTransform {
+      scale 4.125 1.725
+    }
+  }
+}
+Solid {
+  translation -9.87 -6.36 4.13
+  rotation 0.7071067811865476 0 0.7071067811865476 3.141592
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.8 0.8
+        baseColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/default/worlds/textures/ladybug.png"
+          ]
+          filtering 5
+        }
+        transparency 0.6
+        roughness 0.5
+        metalness 0
+        textureTransform TextureTransform {
+          rotation 1.5708
+        }
+      }
+      geometry Plane {
+        size 5 5
+      }
+    }
+  ]
+  name "solid(3)"
+}
+TiagoIron {
+  translation -8.63988 -9.75245 0.235361
+  rotation -0.9843147388546951 -0.0013806996336911226 -0.17641595319566386 0.0053526
+  controller "<extern>"
+  supervisor TRUE
+  cameraSlot [
+    DEF camera Camera {
+      translation 0 0.5 0
+      rotation 0 -1 0 1.5724987151386935
+      fieldOfView 0.6
+      width 800
+      height 600
+      zoom Zoom {
+        minFieldOfView 0.1
+      }
+    }
+  ]
+  lidarSlot [
+    Lidar {
+      name "hokuyo"
+      horizontalResolution 1320
+      fieldOfView 3.14
+      numberOfLayers 1
+      maxRange 6
+    }
+    Display {
+      width 800
+      height 600
+    }
+  ]
+}
